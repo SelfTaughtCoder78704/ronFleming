@@ -46,6 +46,7 @@ nav {
   text-decoration: none;
   color: white;
   font-size: 24px;
+  font-family: 'Anton', sans-serif;
   transition: 0.5s;
 }
 
@@ -105,10 +106,20 @@ main{
     background-position: bottom;
 }
 
+#secMain{
+  background: grey;
+  height: 40vh;
+}
+
+h1, h2{
+  font-family: 'Anton', sans-serif;
+}
+
 main .jumbo{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* padding-top: 100px; */
     text-align: center;
     background-color: rgba(0, 0, 0, 0.158);
     width: 100%;
@@ -116,7 +127,7 @@ main .jumbo{
 }
 
 main .jumbo h1{
-    font-size:72px;
+    font-size:90px;
     -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(255, 255, 255);
   margin:0;
@@ -125,10 +136,12 @@ main .jumbo h1{
   animation: fadeInLeft ease 3s ;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
 }
 
 main .jumbo h2{
-    font-size: 48px;
+    font-size: 62px;
     color: white;
     -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(0, 0, 0);
@@ -144,18 +157,20 @@ main .jumbo h2{
 
 .mainNote{
     width: 100%;
-    padding: 10px 0;
+    padding: 0px 0;
     text-align: center;
     position: absolute;
     bottom: 0;
     left: 0;
-    background: linear-gradient(rgba(0,0,0,0.6) , rgb(0, 0, 0));
+    
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.795), #f70000a1);
 }
 
 .mainNote p{
     color: white;
     font-size: 24px;
     font-weight: 700;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.336);
 }
 
 
@@ -166,11 +181,21 @@ main .jumbo h2{
 }
 
 #reasons .leadText h3{
-    font-size: 36px ;
+    font-size: 48px ;
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+}
+
+.leadText{
+  margin: 50px 0;
 }
 
 #reasons .leadText p{
     font-size: 28px ;
+    padding: 0;
+    margin: 30px 0;
 }
 
 .cards{
@@ -225,8 +250,10 @@ main .jumbo h2{
     text-align: center;
     margin: 0;
     padding: 0;
-    font-size: 48px;
+    font-size: 72px;
+    font-family: 'Anton', sans-serif;
     color: var(--primary);
+    font-weight: normal;
 }
 
 #servTop{
@@ -235,7 +262,7 @@ main .jumbo h2{
     padding: 40px 0;
 }
 #servBox{
-    background: rgba(0, 0, 0, 0.575);
+    background: rgba(0, 0, 0, 0.479);
     padding: 40px 0;
     text-align: center;
 }
@@ -264,7 +291,7 @@ main .jumbo h2{
 }
 
 .certGroup img{
-    max-width: 280px;
+    max-width: 300px;
 }
 .overlayServices{
     background: url(/images/dep.png) no-repeat;
@@ -305,10 +332,14 @@ main .jumbo h2{
     grid-gap: 3em;
 }
 
-
+#meetRon{
+  width: 100%;
+  height: 40vh;
+  background: grey;
+}
 
 .btnClear{
-    background: linear-gradient(#FFFFFF, #ececec49);
+    background: linear-gradient(#FFFFFF, #ecececad);
     padding: 20px;
     border-radius: 0.3rem;
     font-size: 24px;
@@ -316,7 +347,40 @@ main .jumbo h2{
     height: 100px;
     border:none;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.74);
+    cursor: pointer;
+    font-family: 'Anton', sans-serif;
     color: var(--primary);
+    font-weight: normal;
+    transition: 0.5s;
+}
+
+.btnClear:hover{
+  background: linear-gradient(to right,rgb(59, 57, 57), black, rgb(59, 57, 57));
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+#satisfaction{
+  width: 100%;
+  text-align: center;
+  background: white;
+}
+#satisfaction p {
+  font-size: 36px;
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  background: var(--primary);
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 
 @keyframes fadeInLeft {
