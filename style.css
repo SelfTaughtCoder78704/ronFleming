@@ -11,6 +11,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    background: var(--primary);
 }
 nav {
   
@@ -178,6 +179,7 @@ main .jumbo h2{
     text-align: center;
     width: 100%;
     padding: 40px 0;
+    background: white;
 }
 
 #reasons .leadText h3{
@@ -241,10 +243,7 @@ main .jumbo h2{
     padding: 0;
 }
 
-#services{
-   
-   
-}
+
 
 #services h3{
     text-align: center;
@@ -364,9 +363,11 @@ main .jumbo h2{
   width: 100%;
   text-align: center;
   background: white;
+  padding: 50px 0;
 }
 #satisfaction p {
   font-size: 36px;
+  margin: 0;
 }
 
 footer{
