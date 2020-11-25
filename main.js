@@ -1,6 +1,7 @@
             //Nav Stuff
             let mobileMenu = document.querySelector(".mobile-menu");
-            let navOpen = document.querySelector(".mobile-dropper ");
+            let navOpen = document.querySelector(".mobile-dropper");
+          
             let navClose = document.querySelector(".m-x");
             let anchors = document.querySelectorAll(".m-nav-anchor");
             let hrs = document.querySelectorAll(".m-nav-list hr");

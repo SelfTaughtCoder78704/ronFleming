@@ -34,6 +34,7 @@ nav {
 
 .navBtn:hover{
     box-shadow: 0 20px 35px black;
+    text-decoration: none !important;
 }
 
 .nav-list {
@@ -45,18 +46,17 @@ nav {
 
 .nav-list-i a {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 24px;
   font-family: 'Anton', sans-serif;
   transition: 0.5s;
 }
 
-/* .nav-list-i a:hover {
-  background: white;
-  color: rgb(49, 76, 98);
-  padding: 5px;
-  border-radius: 5px;
-} */
+.nav-list-i a:hover {
+
+  text-decoration: underline;
+ 
+}
 
 /* Page content */
 .content {
@@ -272,9 +272,12 @@ main .jumbo h2{
     padding: 20px 0;
     display: inline-block;
     margin: 20px;
+    transition: 0.5s;
     color: red;
 }
-
+#servBox .ital:hover{
+  color: white;
+}
 #servCerts{
     width: 100%;
     background: white;
@@ -418,7 +421,7 @@ footer p {
  }  
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   
   nav {
     padding: 0;
@@ -497,6 +500,73 @@ footer p {
     width: 70%;
     display: none;
   }
+  main .jumbo h1{
+    font-size: 2rem;
+  }
 
- 
+  .leadText{
+    margin: 0;
+    padding: 20px;
+  }
+
+  #reasons .leadText h3{
+    font-size: 1.8rem;
+  }
+
+  #reasons .leadText p{
+    font-size: 1.3rem;
+  }
+
+  .cards{
+    display: block;
+  }
+
+  .card {
+    margin: 20px auto;
+  }
+
+  #blackStrip h4{
+    font-size: 1.2rem;
+  }
+
+  #servTop h3{
+    font-size: 2rem;
+  }
+
+    .btnGrid{
+      width: 90%;
+      margin: 0 auto;
+
+    }
+.btnClear{
+  font-size: 1rem;
+  padding: 4px;
+}
+.certGroup{
+  width: 90%;
+}
+.certGroup img{
+  width: 100px;
+}
+
+#featuredTestimonial {
+  font-size: 1.5rem;
+}
+  main .jumbo h2{
+    font-size: 1.4rem;
+  }
+  .mainNote p{
+    font-size: 1.2rem;
+  }
+
+  .testi{
+    width: 90%;
+  }
+  #satisfaction p{
+    font-size: 1.4rem;
+  }
+  footer p{
+    width: 90%;
+    margin: 0 auto;
+  }
 }      
