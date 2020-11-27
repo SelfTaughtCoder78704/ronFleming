@@ -19,9 +19,7 @@ nav {
   width: 100%;
   padding: 10px;
   border-bottom: 2px solid white;
-  animation: fadeInDown ease 3s ;
-  animation-iteration-count: 1; 
-  animation-fill-mode: forwards; 
+  
     z-index: 100;
 }
 
@@ -48,7 +46,7 @@ nav {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 24px;
-  font-family: 'Anton', sans-serif;
+  
   transition: 0.5s;
 }
 
@@ -113,7 +111,7 @@ main{
 }
 
 h1, h2{
-  font-family: 'Anton', sans-serif;
+  
 }
 
 main .jumbo{
@@ -137,8 +135,8 @@ main .jumbo h1{
   animation: fadeInLeft ease 3s ;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
-    text-transform: uppercase;
-    font-family: 'Anton', sans-serif;
+    /* text-transform: uppercase; */
+    
 }
 
 main .jumbo h2{
@@ -186,7 +184,7 @@ main .jumbo h2{
     font-size: 48px ;
     padding: 0;
     margin: 0;
-    font-family: 'Anton', sans-serif;
+    
     font-weight: normal;
 }
 
@@ -250,7 +248,7 @@ main .jumbo h2{
     margin: 0;
     padding: 0;
     font-size: 72px;
-    font-family: 'Anton', sans-serif;
+    
     color: var(--primary);
     font-weight: normal;
 }
@@ -350,7 +348,7 @@ main .jumbo h2{
     border:none;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.74);
     cursor: pointer;
-    font-family: 'Anton', sans-serif;
+    
     color: var(--primary);
     font-weight: normal;
     transition: 0.5s;
