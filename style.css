@@ -162,7 +162,7 @@ main .jumbo h2{
     bottom: 0;
     left: 0;
     
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.795), #f70000a1);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.795));
 }
 
 .mainNote p{
@@ -185,7 +185,7 @@ main .jumbo h2{
     padding: 0;
     margin: 0;
     
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .leadText{
@@ -196,6 +196,7 @@ main .jumbo h2{
     font-size: 28px ;
     padding: 0;
     margin: 30px 0;
+    font-weight: normal !important;
 }
 
 .cards{
@@ -250,7 +251,7 @@ main .jumbo h2{
     font-size: 72px;
     
     color: var(--primary);
-    font-weight: normal;
+    font-weight: 600;
 }
 
 #servTop{
@@ -417,7 +418,43 @@ footer p {
        transform: translateX(0);
     }
  }  
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 1600px) {
   
