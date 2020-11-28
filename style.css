@@ -455,7 +455,23 @@ footer p {
   text-decoration: none;
   cursor: pointer;
 }
-
+@media screen and (max-width: 1600px){
+  main .jumbo h1{
+    font-size: 4rem;
+  }
+  main .jumbo h2{
+    font-size: 3rem;
+  }
+  #reasons .leadText h3{
+    font-size: 2rem;
+  }
+  #services h3{
+    font-size: 3rem;
+  }
+  #satisfaction p{
+    font-size: 2rem;
+  }
+}
 @media screen and (max-width: 1400px) {
   
   nav {
