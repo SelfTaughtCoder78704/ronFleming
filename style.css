@@ -136,7 +136,7 @@ main .jumbo h1 {
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
     /* text-transform: uppercase; */
-    
+    font-weight: 600;
 }
 
 main .jumbo h2{
@@ -456,7 +456,7 @@ footer p {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1400px) {
   
   nav {
     padding: 0;
