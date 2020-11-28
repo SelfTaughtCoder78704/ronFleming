@@ -125,7 +125,7 @@ main .jumbo{
     height: 100%;
 }
 
-main .jumbo h1{
+main .jumbo h1 {
     font-size:90px;
     -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(255, 255, 255);
@@ -536,6 +536,9 @@ footer p {
   .m-nav-list hr {
     width: 70%;
     display: none;
+  }
+  main .jumbo h1,  main .jumbo h2{
+    animation: none;
   }
   main .jumbo h1{
     font-size: 2rem;
