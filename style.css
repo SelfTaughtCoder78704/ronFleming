@@ -497,6 +497,9 @@ footer p {
   cursor: pointer;
 }
 @media screen and (max-width: 1600px){
+  #ronGrid{
+    display: block;
+  }
   main{
     background-position: center;
   }
