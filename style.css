@@ -31,7 +31,7 @@ nav {
 }
 
 .navBtn:hover{
-    box-shadow: 0 20px 35px black;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.733);
     text-decoration: none !important;
 }
 
@@ -100,9 +100,9 @@ main{
     height: 60vh;
    
     
-    background: url(/images/lakeEolaFountain\ 1.png) no-repeat;
+    background: url(/realImages/eola.jpeg) no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: 0 -700px;
 }
 
 #secMain{
@@ -120,7 +120,7 @@ main .jumbo{
     align-items: center;
     /* padding-top: 100px; */
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.158);
+    background-color: rgba(214, 214, 214, 0);
     width: 100%;
     height: 100%;
 }
@@ -295,7 +295,7 @@ main .jumbo h2{
     max-width: 300px;
 }
 .overlayServices{
-    background: url(/images/dep.png) no-repeat;
+    background: url(/realImages/cam.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -324,6 +324,22 @@ main .jumbo h2{
     color: white;
     font-size: 36px;
 }
+.btn{
+  padding: 20px;
+  background: var(--primary);
+  color: white;
+  border-radius: 00.34rem;
+  display: inline-block;
+  margin: 20px 0;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.btn:hover{
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.603);
+  background: white;
+  color: var(--primary);
+}
 
 .btnGrid{
     width: 40%;
@@ -335,8 +351,32 @@ main .jumbo h2{
 
 #meetRon{
   width: 100%;
-  height: 40vh;
-  background: grey;
+  /* height: 40vh; */
+  background: rgb(255, 255, 255);
+  padding: 50px 0;
+}
+
+#ronGrid{
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1em;
+}
+
+#ronGrid h2{
+  font-size: 36px;
+}
+
+#ronGrid img{
+  width: 100%;
+  height: 100%;
+  border-radius: 0.34rem;
+}
+
+#ronGrid div p {
+  width: 70%;
 }
 
 .btnClear{
@@ -368,8 +408,9 @@ main .jumbo h2{
   padding: 50px 0;
 }
 #satisfaction p {
-  font-size: 36px;
-  margin: 0;
+  width: 50%;
+  font-size: 28px;
+  margin: 0 auto;
 }
 
 footer{
@@ -456,6 +497,9 @@ footer p {
   cursor: pointer;
 }
 @media screen and (max-width: 1600px){
+  main{
+    background-position: center;
+  }
   main .jumbo h1{
     font-size: 4rem;
   }
@@ -557,6 +601,7 @@ footer p {
     width: 70%;
     display: none;
   }
+  
   main .jumbo h1,  main .jumbo h2{
     animation: none;
   }
