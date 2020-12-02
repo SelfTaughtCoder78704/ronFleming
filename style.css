@@ -102,7 +102,8 @@ main{
     
     background: url(/realImages/eola.jpeg) no-repeat;
     background-size: cover;
-    background-position: 0 -700px;
+    background-position: 0 -800px;
+    
 }
 
 #secMain{
@@ -380,7 +381,7 @@ main .jumbo h2{
 }
 
 .btnClear{
-    background: linear-gradient(#FFFFFF, #ecececad);
+    background: linear-gradient(#ffffffb4, #ececec3b);
     padding: 20px;
     border-radius: 0.3rem;
     font-size: 24px;
@@ -499,6 +500,7 @@ footer p {
 @media screen and (max-width: 1600px){
   #ronGrid{
     display: block;
+    width: 90%;
   }
   main{
     background-position: center;
