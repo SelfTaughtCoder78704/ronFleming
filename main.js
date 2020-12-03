@@ -93,6 +93,27 @@ btns.forEach(btn => {
 
 function showInfo() {
   modal.style.display = 'block'
+ if(this.innerText === 'Video Depositions'){
+  document.getElementById('modalBody').innerHTML = `<h2>${info[0].title}</h2>
+                                                                                                          <p>${info[0].body}</p>`
+ }else if(this.innerText === '"A Day in the Life" & Settlement Videos'){
+  document.getElementById('modalBody').innerHTML = `<h2>${info[2].title}</h2>
+  <p>${info[2].body}</p>`
+ }else if(this.innerText === 'Compulsory Medical Examinations'){
+  document.getElementById('modalBody').innerHTML = `<h2>${info[1].title}</h2>
+  <p>${info[1].body}</p>`
+ }else if(this.innerText === 'Site Inspections & Documentation'){
+  document.getElementById('modalBody').innerHTML = `<h2>${info[3].title}</h2>
+  <p>${info[3].body}</p>`
+ }else if(this.innerText === 'Accident Reenactments'){
+  document.getElementById('modalBody').innerHTML = `<h2>${info[4].title}</h2>
+  <p>${info[4].body}</p>`
+ }else if(this.innerText === 'Photography'){
+  document.getElementById('modalBody').innerHTML = `<h2>${info[5].title}</h2>
+  <p>${info[5].body}</p>`
+ }else{
+   return
+ }
 }
 
 // When the user clicks on <span> (x), close the modal
