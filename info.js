@@ -13,7 +13,7 @@ let info = [
     },
     {
         title: 'Site Inspections & Documentation',
-        body: "Documenting a medical examination is invaluable in providing the information you need to determine what went into an examining doctor's opinion. Our videographers are adept at filming from the best viewing angles while remaining unobtrusive and preserving the patient's dignity.",
+        body: "Automobiles, boats, homes, construction sites, swimming pools, vegetation, and more are subjects of videotaped site inspections. Let Ron Fleming Video Productions accurately document evidence or a site inspection for later review by an expert or insurance adjuster.",
       
     },
     {
