@@ -480,6 +480,25 @@ footer p {
   text-decoration: none;
   cursor: pointer;
 }
+#aboutSecMain{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#aboutSecMain div {
+  width: 50%;
+  margin: 0 auto;
+}
+#aboutSecMain h1{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
 @media screen and (max-width: 1600px) {
   #ronGrid {
     display: block;
