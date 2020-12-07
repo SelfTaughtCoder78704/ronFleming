@@ -1,19 +1,19 @@
 let info = [
     {
         title: 'Video Depositions',
-        body: 'Preserving testimony by video is efficient and cost effective. We record all video depositions on both DVD and digital tape. Once completed, the digital media masters are maintained on file at our office for your protection. You have a wide choice of duplication formats from which to choose including DVD, MPEG-1, YesLaw and Video-Text Synchronization compatible with Sanction, Trial Director, Summation, Visionary, LiveNote and Power Point trial presentation software.'
+        body: 'Crisp video and clean sound are the hallmarks of a well-produced Video Deposition.  The depositions we produce are delivered to you via digital video files, or transferred to standard DVD format that you can play back on a computer or tablet.  You will receive Video Depositions the way you want them: always with outstanding video and sound quality.'
     },
     {
         title: 'Compulsory Medical Examinations',
-        body: "Documenting a medical examination is invaluable in providing the information you need to determine what went into an examining doctor's opinion. Our videographers are adept at filming from the best viewing angles while remaining unobtrusive and preserving the patient's dignity.",
+        body: "Special techniques to film CMEs are important and necessary. We use a mobile camera with stability which becomes your eyes and ears during the examination allowing us to put you in the middle of the action as an observer.  We go to great lengths to ensure you see and hear clearly every aspect of a medical examination of your client.",
     },
     {
         title: '"A Day in the Life" & Settlement Videos',
-        body: "Forceful and compelling, a “Day in the Life” produced by Ron Fleming Video Productions informs and educates like no other approach can. Reality is critical to a “Day in the Life,” and our production and editing gives you a powerful and credible documentary presentation without embellishment or exaggeration.",
+        body: 'Filming an "A Day in the Life" or Settlement Video requires the creative and expert ability to tell an injured person’s story using video tools.  The clips we film during an "A Day in the Life" or Settlement Video are professionally and tastefully edited together to tell the story of your client with the important element of credibility at its core.',
     },
     {
         title: 'Site Inspections & Documentation',
-        body: "Automobiles, boats, homes, construction sites, swimming pools, vegetation, and more are subjects of videotaped site inspections. Let Ron Fleming Video Productions accurately document evidence or a site inspection for later review by an expert or insurance adjuster.",
+        body: "Site Inspections are varied and may include expert examination of all types of vehicles, buildings (inside and/or outside), machines, foliage and/or vegetation, and much more.  The filming of Accident Reenactments are a form of documentation which we also provide. ",
       
     },
     {
@@ -22,7 +22,7 @@ let info = [
     },
     {
         title: 'Photography',
-        body: "Document an accident scene, defective product, automobile or boat inspection and more with a professional photographer skilled in documentary photography. We feature a complete photographic studio capable of producing premium still pictures and enlargements with rapid turnaround.",
+        body: "Professionally taken, high resolution digital photographs are used as a demonstrative aid to support a case or also in conjunction with video.   We have high-end photography equipment and the expertise to produce true-to-life photographs that show the elements of your case in an easily understood format.",
     },
 ]
 

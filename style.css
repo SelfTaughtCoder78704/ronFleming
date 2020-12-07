@@ -198,7 +198,7 @@ main .jumbo h2 {
   position: relative;
   background: var(--primary);
   width: 100%;
-  height: 400px;
+  /* height: 300px; */
   border-radius: 0.3rem;
 }
 
@@ -206,9 +206,25 @@ main .jumbo h2 {
   background: #282727;
   color: white;
   width: 100%;
-  position: absolute;
-  top: 0;
+  /* position: absolute;
+  top: 0; */
+padding: 10px 0;
   border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.cardBody{
+  color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+ 
+}
+
+.cardBody p{
+  width: 70%;
+margin: 20px auto;
+padding: 20px 0;
+  font-size: 18px;
 }
 
 #blackStrip {
@@ -410,6 +426,36 @@ footer p {
   padding: 0;
   color: white;
 }
+.content2{
+  background: url(/images/pexels-donald-tong-66134.jpg) no-repeat;
+  background-size: cover;
+}
+#moreServices{
+  background:linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.418));
+  text-align: center;
+  height:  auto;
+  padding: 100px;
+}
+
+#moreServices div{
+  width: 80%;
+  margin: 0 auto;
+ 
+}
+#moreServices p{
+  line-height: 30px;
+  font-size: 18px;
+}
+
+#moreServices h1{
+  padding: 0;margin: 0;
+}
+
+#moreServices div ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 @keyframes fadeInLeft {
   0% {
@@ -500,9 +546,31 @@ footer p {
 
 
 @media screen and (max-width: 1600px) {
+  #moreServices{
+    padding: 120px 0;
+  
+  }
+#moreServices h1{
+  font-size: 24px;
+}
+
+#moreServices h2{
+  font-size: 20px;
+}
   #ronGrid {
     display: block;
     width: 90%;
+  }
+.cardTop{
+  padding: 5px 0;
+}
+.cardBody{
+  padding: 10px 0;
+}
+  .cardBody p{
+  padding: 10px ;
+  /* background: blue; */
+  font-size: 14px;
   }
   main {
     background-position: center;
@@ -562,6 +630,7 @@ footer p {
     border-radius: 100%;
     border: 0.5px solid white;
     padding: 20px;
+    cursor: pointer;
   }
   .mobile-menu {
     z-index: 1;
@@ -679,4 +748,10 @@ footer p {
     width: 90%;
     margin: 0 auto;
   }
+}
+@media only screen and (max-width: 480px){
+  .cardBody p{
+    width: 90%;
+    }
+    
 }
