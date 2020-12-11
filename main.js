@@ -59,24 +59,24 @@ let n = d.getFullYear();
 footerDate.textContent = n;
 
 // When the user scrolls the page, execute myFunction
-window.onscroll = function () {
-  myFunction();
-};
+// window.onscroll = function () {
+//   myFunction();
+// };
 
 // Get the navbar
-let navbar = document.getElementById("navbar");
+// let navbar = document.getElementById("navbar");
 
-// Get the offset position of the navbar
-let sticky = navbar.offsetTop;
+// // Get the offset position of the navbar
+// let sticky = navbar.offsetTop;
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
+// // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// function myFunction() {
+//   if (window.pageYOffset > sticky) {
+//     navbar.classList.add("sticky");
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
 // Get the modal
 let modal = document.getElementById("myModal");
 
@@ -117,8 +117,10 @@ function showInfo() {
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
+if(span){
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
 }
 
 // When the user clicks anywhere outside of the modal, close it

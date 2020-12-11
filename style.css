@@ -54,18 +54,15 @@ nav {
 .nav-list-i a:hover {
   text-decoration: underline;
 }
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
+/* .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 100px;
-}
+  padding-top: 250px;
+} */
 
 .logo p {
   color: white;
@@ -91,13 +88,14 @@ nav {
 main {
   position: relative;
   width: 100%;
-  height: 82vh; 
-  height: 60vh;
+  height: 75vh;
+  
+  /* height: 60vh; */
   background: url(/realImages/bg.jpeg) no-repeat;
   background-size: cover;
   /* background-position: 0 -800px; */
   background-position: 0 -600px;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 #secMain {
@@ -118,7 +116,7 @@ main .jumbo {
 
 main .jumbo h1 {
   font-size: 90px;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
@@ -387,7 +385,7 @@ padding: 20px 0;
 }
 
 .btnClear {
-  background: linear-gradient(#ffffffd7, #ecececa2);
+  background: rgba(255, 255, 255, 0.363);
   padding: 20px;
   border-radius: 0.3rem;
   font-size: 24px;
@@ -443,16 +441,17 @@ footer p {
   background-size: cover;
 }
 #moreServices{
-  background:linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.418));
+  background:linear-gradient(rgb(87, 87, 87), rgba(0, 0, 0, 0.418));
   text-align: center;
   height:  auto;
   padding: 100px;
+  color: white;
 }
 
 #moreServices div{
   width: 80%;
   margin: 0 auto;
- 
+ height: 100%;
 }
 #moreServices p{
   line-height: 30px;
@@ -461,6 +460,9 @@ footer p {
 
 #moreServices h1{
   padding: 0;margin: 0;
+  font-size: 3.5rem;
+  color: var(--primary);
+  text-shadow: 1px 1px 1px white;
 }
 
 #moreServices div ul{
@@ -468,6 +470,8 @@ footer p {
   padding: 0;
   margin: 0;
 }
+
+
 
 @keyframes fadeInLeft {
   0% {
@@ -539,25 +543,156 @@ footer p {
   cursor: pointer;
 }
 #aboutSecMain{
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  width: 100%;
+  background: url(/realImages/office.jpg) no-repeat;
+  background-size: 120%;
+  background-position: center;
+ text-align: center;
+ height: auto;
+ 
+ 
 }
 
-#aboutSecMain div {
-  width: 50%;
-  margin: 0 auto;
+.overlay{
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(black, rgba(255, 255, 255, 0.575));
+  padding: 100px 0;
 }
+.aboutWrap{
+  width: 70%; 
+  margin: 0 auto;
+  display: grid;
+ grid-template-columns: 70% 30%;
+ grid-gap: 1em;
+}
+
 #aboutSecMain h1{
   margin: 0;
   padding: 0;
   
 }
 
+#officeIm{
+  width: 120%;
+  object-position:0 20%;
+  height: 400px !important;
+}
+
+#aboutSecMain div img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 0.3rem;
+}
+#aboutSecMain .btn{
+  /* width: 100%; */
+  width: 200px;
+  text-align: center;
+}
+
+.aboutImgGrid{
+  
+
+  width: 100%;
+  margin: 0 auto;
+ 
+}
+
+.aboutWords{
+  text-align: left;
+  line-height: 36px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  height: 100%;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.3rem;
+}
+.aboutWords p{
+  font-size: 1.2rem;
+}
+
+.aboutWords div{
+  width: 70%;
+  margin: 0 auto;
+}
+#contactMain{
+  width: 100%;
+  background: url(/realImages/confer.jpg) no-repeat;
+  background-size: 120%;
+  background-position: center;
+ text-align: center;
+ height: auto;
+}
+
+#contactMain h2{
+  margin: 0;
+}
+
+.contactWrap{
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(black, rgba(255, 255, 255, 0.219));
+  padding: 100px 0;
+  
+}
+
+.contactWrap #contactWhite{
+  background: white;
+  border-radius: 0.3rem;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  text-align: left;
+  
+}
+.formDiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formDiv form {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+}
+
+.contactWrap p{
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+form input, form textarea{
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
 
 @media screen and (max-width: 1600px) {
+  .formDiv form{
+    padding: 50px 0;
+  }
+  .contactWrap #contactWhite{
+    display: block;
+    width: 80%;
+    text-align: center;
+  }
+  .contactWrap{
+    padding: 120px 0;
+  }
+  #contactMain{
+    background-position: center;
+    background-size: cover;
+    /* padding: 20px 0; */
+  }
   #moreServices{
     padding: 120px 0;
   
@@ -608,10 +743,20 @@ footer p {
   }
 }
 @media screen and (max-width: 1200px) {
+
+  
   #services{
     background: url(/realImages/cam.jpg) no-repeat;
     background-size: cover;
     
+  }
+  .aboutWrap{
+    width: 100%;
+    display: block;
+  }
+  .aboutWords p{
+    font-size: 1rem;
+    line-height: 24px;
   }
   .overlayServices {
     
@@ -622,7 +767,7 @@ footer p {
   nav {
     padding: 0;
     height: 100px;
-    position: fixed;
+    position: absolute;
     z-index: 100;
     width: 100%;
   }
@@ -702,7 +847,7 @@ footer p {
     animation: none;
   }
   main .jumbo h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .leadText {
@@ -711,7 +856,7 @@ footer p {
   }
 
   #reasons .leadText h3 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
 
   #reasons .leadText p {
