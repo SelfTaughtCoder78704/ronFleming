@@ -358,7 +358,7 @@ padding: 20px 0;
   width: 100%;
   /* height: 40vh; */
   background: rgb(255, 255, 255);
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 #ronGrid {
@@ -366,26 +366,28 @@ padding: 20px 0;
   height: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns:60% 40%;
   grid-gap: 1em;
 }
 
 #ronGrid h2 {
   font-size: 36px;
+  margin: 0;
 }
 
 #ronGrid img {
   width: 100%;
-  height: 100%;
+  height: 250px;
+  object-fit: cover;
   border-radius: 0.34rem;
 }
 
 #ronGrid div p {
-  width: 70%;
+  width: 90%;
 }
 
 .btnClear {
-  background: rgba(255, 255, 255, 0.363);
+  background: rgba(255, 255, 255, 0.753);
   padding: 20px;
   border-radius: 0.3rem;
   font-size: 24px;
@@ -620,7 +622,7 @@ footer p {
 #contactMain{
   width: 100%;
   background: url(/realImages/confer.jpg) no-repeat;
-  background-size: 120%;
+  background-size: 100%;
   background-position: center;
  text-align: center;
  height: auto;
@@ -633,9 +635,23 @@ footer p {
 .contactWrap{
   width: 100%;
   height: 100%;
-  background: radial-gradient(black, rgba(255, 255, 255, 0.219));
+  /* background: radial-gradient(rgb(212, 212, 212), rgba(255, 255, 255, 0.219)); */
   padding: 100px 0;
   
+}
+.contactWrap .image{
+  padding: 5px;
+  
+  width: 100%;
+  
+}
+
+.contactWrap .image img{
+  width: 100px;
+}
+.contactWrap a{
+  color: var(--primary);
+  text-decoration: none;
 }
 
 .contactWrap #contactWhite{
@@ -743,8 +759,15 @@ form input, form textarea{
   }
 }
 @media screen and (max-width: 1200px) {
-
   
+  .contactWrap .image{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+  }
   #services{
     background: url(/realImages/cam.jpg) no-repeat;
     background-size: cover;
