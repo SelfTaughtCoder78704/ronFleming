@@ -724,6 +724,13 @@ form input, form textarea{
     display: block;
     width: 90%;
   }
+  #ronGrid img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0.34rem;
+  }
+  
 .cardTop{
   padding: 5px 0;
 }
