@@ -13,7 +13,7 @@ let info = [
     },
     {
         title: 'Site Inspections & Documentation',
-        body: "Site Inspections are varied and may include expert examination of all types of vehicles, buildings (inside and/or outside), machines, foliage and/or vegetation, and much more.  The filming of Accident Reenactments are a form of documentation which we also provide. ",
+        body: "Site Inspections are varied and may include expert examinations of automobiles, trains, boats, airplanes, buildings, homes, theme parks, agriculture, machines of all types and more.  The filming of accident scenes are a form of documentation we also provide.",
       
     },
     {
@@ -22,7 +22,7 @@ let info = [
     },
     {
         title: 'Photography',
-        body: "Professionally taken, high resolution digital photographs are used as a demonstrative aid to support a case or also in conjunction with video.   We have high-end photography equipment and the expertise to produce true-to-life photographs that show the elements of your case in an easily understood format.",
+        body: "Professionally taken, high resolution digital photographs are used as a demonstrative aid to support a case and also in conjunction with video.  We have high-end photography equipment and the expertise to produce true-to-life photographs that show the elements of your case visually.",
     },
 ]
 
