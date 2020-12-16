@@ -10,8 +10,18 @@ navOpen.addEventListener("click", () => {
   anchors.forEach((anchor) => {
     anchor.style.display = "block";
     // anchor.classList.add('jello')
+    anchor.addEventListener('click', setTimeToClose)
   });
-  
+  function setTimeToClose(){
+    setTimeout(() => {
+      mobileMenu.style.width = "0";
+      mobileMenu.classList.remove("bounceInRight");
+      navClose.style.color = "rgba(255, 255, 255, 0)";
+      anchors.forEach(anchor => {
+    anchor.style.display = "none";
+      })
+    }, 500)
+  }
 
   hrs.forEach((hr) => {
     hr.style.display = "block";

@@ -866,7 +866,7 @@ form input, form textarea{
     background: var(--primary);
     width: 0;
     float: right;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     height: 150vh;
