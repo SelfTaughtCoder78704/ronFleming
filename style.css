@@ -709,7 +709,7 @@ form input, form textarea{
 @media screen and (max-width: 1600px) {
   .btnClear{
     height:  auto;
-    padding: 10px 0;
+    padding: 10px ;
   }
 }
 @media screen and (max-width: 1480px) {
