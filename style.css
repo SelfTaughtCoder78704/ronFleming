@@ -448,7 +448,7 @@ footer p {
   background:linear-gradient(rgb(87, 87, 87), rgba(0, 0, 0, 0.418));
   text-align: center;
   height:  auto;
-  padding: 100px;
+  /* padding: 100px; */
   color: white;
 }
 
@@ -458,7 +458,7 @@ footer p {
  height: 100%;
 }
 #moreServices p{
-  line-height: 30px;
+  line-height: 24px;
   font-size: 18px;
 }
 
@@ -732,7 +732,7 @@ form input, form textarea{
     /* padding: 20px 0; */
   }
   #moreServices{
-    padding: 120px 0;
+    padding: 30px 0;
   
   }
 #moreServices h1{
