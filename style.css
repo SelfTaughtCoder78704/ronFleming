@@ -556,9 +556,9 @@ footer p {
 }
 #aboutSecMain{
   width: 100%;
-  background: url(/realImages/office.jpg) no-repeat;
-  background-size: 120%;
-  background-position: center;
+  background: url(/images/bgBrick.jpeg) no-repeat;
+  background-size: cover;
+  background-position: top center;
  text-align: center;
  height: auto;
  
@@ -618,8 +618,9 @@ footer p {
   color: rgb(0, 0, 0);
   height: 100%;
   padding: 20px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.658);
   border-radius: 0.3rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.336);
 }
 .aboutWords p{
   font-size: 1.2rem;
@@ -707,6 +708,11 @@ form input, form textarea{
 
 
 @media screen and (max-width: 1480px) {
+  #modalBody p{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 20px;
+  }
   .cards{
     width: 90%;
     
