@@ -707,7 +707,7 @@ form input, form textarea{
   font-size: 18px;
 }
 
-.aboutWords a{
+.aboutWords a:not(.btn){
   color: var(--primary);
   font-size: 1.2rem;
   float: right;
