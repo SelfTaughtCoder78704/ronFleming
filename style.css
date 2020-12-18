@@ -618,6 +618,7 @@ padding: 20px 10px;
   color: rgb(0, 0, 0);
   height: 100%;
   padding: 20px;
+
   background-color: rgba(255, 255, 255, 0.658);
   border-radius: 0.3rem;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.336);
@@ -704,6 +705,20 @@ form input, form textarea{
   margin: 5px 0;
   padding: 10px;
   font-size: 18px;
+}
+
+.aboutWords a{
+  color: var(--primary);
+  font-size: 1.2rem;
+  float: right;
+  text-decoration: none;
+  font-weight: 900;
+  transition: 0.5s;
+}
+
+.aboutWords a:hover{
+  color: black;
+  font-size: 1.4rem;
 }
 
 @media screen and (max-width: 1600px) {
