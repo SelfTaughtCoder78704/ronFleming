@@ -264,12 +264,13 @@ padding: 20px 0;
 }
 #servBox {
   background: rgba(0, 0, 0, 0.479);
-  padding: 30px 0;
+  padding: 40px 0;
   text-align: center;
 }
 
 #servBox .ital {
   font-style: italic;
+  font-weight: bold;
   font-size: 28px;
   padding: 20px 0;
   display: inline-block;
