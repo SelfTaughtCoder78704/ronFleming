@@ -465,8 +465,8 @@ footer p {
 #moreServices h1{
   padding: 0;margin: 0;
   font-size: 3.5rem;
-  color: var(--primary);
-  text-shadow: 1px 1px 1px white;
+  color:white;
+  text-shadow: 1px 1px 1px var(--primary);
 }
 
 #moreServices div ul{
